@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="114691" started-at="2016-02-15T09:36:04Z" finished-at="2016-02-15T09:37:59Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="114691" started-at="2016-02-15T09:36:04Z" finished-at="2016-02-15T09:37:59Z">
+      <class name="com.android.qtpselenium.mobileRegressionTestCases.dataTransferChecks">
+        <test-method status="PASS" signature="setup(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.android.qtpselenium.mobileRegressionTestCases.dataTransferChecks@47f6473]" test-instance-name="" name="setup" is-config="true" duration-ms="62816" started-at="2016-02-15T15:06:04Z" finished-at="2016-02-15T15:07:07Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Lenovo]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Micromax]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[LRZ5MNHYQ8AAIFD6]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[0123456789ABCDEF]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[com.reliance.jio.jioswitch]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[com.reliance.jio.jioswitch.ui.SplashActivity]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+            <param index="7">
+              <value>
+                <![CDATA[android]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method status="PASS" signature="remindersNotSupported()[pri:0, instance:com.android.qtpselenium.mobileRegressionTestCases.dataTransferChecks@47f6473]" test-instance-name="" name="remindersNotSupported" duration-ms="1187" started-at="2016-02-15T15:07:07Z" finished-at="2016-02-15T15:07:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- remindersNotSupported -->
+        <test-method status="PASS" signature="selectiveDataTransfer()[pri:0, instance:com.android.qtpselenium.mobileRegressionTestCases.dataTransferChecks@47f6473]" test-instance-name="" name="selectiveDataTransfer" duration-ms="819" started-at="2016-02-15T15:07:08Z" depends-on-methods="com.android.qtpselenium.mobileRegressionTestCases.dataTransferChecks.remindersNotSupported" finished-at="2016-02-15T15:07:09Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- selectiveDataTransfer -->
+        <test-method status="PASS" signature="documentsNotSupported()[pri:0, instance:com.android.qtpselenium.mobileRegressionTestCases.dataTransferChecks@47f6473]" test-instance-name="" name="documentsNotSupported" duration-ms="6400" started-at="2016-02-15T15:07:09Z" depends-on-methods="com.android.qtpselenium.mobileRegressionTestCases.dataTransferChecks.selectiveDataTransfer" finished-at="2016-02-15T15:07:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- documentsNotSupported -->
+        <test-method status="PASS" signature="timeEstimateCheck()[pri:0, instance:com.android.qtpselenium.mobileRegressionTestCases.dataTransferChecks@47f6473]" test-instance-name="" name="timeEstimateCheck" duration-ms="26314" started-at="2016-02-15T15:07:15Z" depends-on-methods="com.android.qtpselenium.mobileRegressionTestCases.dataTransferChecks.documentsNotSupported" finished-at="2016-02-15T15:07:42Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- timeEstimateCheck -->
+        <test-method status="PASS" signature="closeDriver()[pri:0, instance:com.android.qtpselenium.mobileRegressionTestCases.dataTransferChecks@47f6473]" test-instance-name="" name="closeDriver" is-config="true" duration-ms="17140" started-at="2016-02-15T15:07:42Z" finished-at="2016-02-15T15:07:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeDriver -->
+      </class> <!-- com.android.qtpselenium.mobileRegressionTestCases.dataTransferChecks -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

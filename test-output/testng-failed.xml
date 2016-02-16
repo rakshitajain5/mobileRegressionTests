@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <parameter name="ReceiverPlatform" value="android"/>
+  <parameter name="Sender" value="Lenovo"/>
+  <parameter name="AppPackage" value="com.reliance.jio.jioswitch"/>
+  <parameter name="ReceiverUdid" value="0123456789ABCDEF"/>
+  <parameter name="SenderPlatform" value="android"/>
+  <parameter name="SenderUdid" value="LRZ5MNHYQ8AAIFD6"/>
+  <parameter name="Receiver" value="Micromax"/>
+  <parameter name="AppActivity" value="com.reliance.jio.jioswitch.ui.SplashActivity"/>
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.android.qtpselenium.mobileRegressionTestCases.dataTransferChecks"/>
+    </classes>
+  </test> <!-- Default test -->
+</suite> <!-- Failed suite [Default suite] -->

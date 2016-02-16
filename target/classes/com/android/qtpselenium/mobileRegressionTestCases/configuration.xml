@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite1">
+  <test name="test1">
+	<parameter name="Sender" value="Lenovo"/>
+	<parameter name="Receiver" value="Micromax"/>
+	<parameter name="SenderPlatform" value="android"/>
+    <parameter name="ReceiverPlatform" value="android"/>
+	<parameter name= "SenderUdid" value= "LRZ5MNHYQ8AAIFD6"/>
+	<parameter name= "ReceiverUdid" value= "0123456789ABCDEF"/>
+	<parameter name= "AppPackage" value= "com.reliance.jio.jioswitch"/>
+	<parameter name= "AppActivity" value= "com.reliance.jio.jioswitch.ui.SplashActivity"/>
+	<parameter name= "AaptPath" value= "/Users/rakshita/android-sdks/build-tools/23.0.2/aapt"/>
+	<parameter name= "ApkPath" value= "/Users/rakshita/Documents/JioSwitch_196.apk"/>
+	
+    <classes>
+       <class name="termsAndConditionCheck"/>
+       <class name="deviceInfoCheck"/>
+       <class name="dataTransferChecks"/>
+    </classes>
+  </test>
+</suite>
